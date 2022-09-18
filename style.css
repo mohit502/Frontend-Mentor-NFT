@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=PT+Serif:ital@1&family=Questrial&family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --dark-blue-bg: hsl(217, 54%, 11%);
+    --dark-blue-card-bg: hsl(216, 50%, 16%);
+    --dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    font-size:1.8rem;
+    background-color: var(--dark-blue-bg);
+    color: white;
+    font-family: Outfit;
+
+}
+
+.image-container{
+    width: 300px;
+    margin: 25px auto;
+
+}
+
+div img{
+    width: 100%;    
+    border-radius: 3%;
+}
+
+.card{
+    width: 35rem;
+    /* height: 600px; */
+    /* margin: 20vh auto; */
+    border: 2px solid white;
+    background-color: var(--dark-blue-card-bg);
+    border-radius: 5%;
+}
+
+.info{
+    width: 30rem;
+    margin:0 auto;
+    
+}
+
+.info-value{
+    color: var(--cyan);
+}
+
+.info-about{
+    color: var(--soft-blue);
+}
+
+.info-heading{
+    color: var(--white);
+}
+
+.info-time-left{
+    color: var(--soft-blue);
+}
+
+.info-double{
+    display:flex;
+    justify-content: space-between;
+}
+
+.info-heading,.info-about,.info-double,.credit{
+    margin:1rem 0;
+}
+#avatar{
+    height: 3rem;
+    width: 3rem;
+}
+
+.credit{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    margin-bottom: 1.5rem;
+}
