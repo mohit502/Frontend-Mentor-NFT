@@ -81,13 +81,7 @@ div img {
   
 }
 
-.info-double {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  margin-bottom: 2.5rem;
 
-}
 
 .info-heading,
 .info-about,
@@ -95,13 +89,21 @@ div img {
 .credit {
   margin: 2rem 0;
 }
+.info-double {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  
+  margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
 
+}
 .info-heading{
   margin-top: 1.5rem;
 }
 #avatar {
-  height: 3rem;
-  width: 3rem;
+  height: 100%;
+  width: 100%;
   border-radius: 50%;
   border: 1px solid white;
 }
@@ -113,6 +115,7 @@ div img {
   /* margin-bottom: 1.5rem; */
   border-top: 1px solid var(--dark-blue-line);
   padding: 1.5rem 0;
+  padding-top: 20px;
 
 }
 
@@ -145,3 +148,9 @@ h2{
 .credit span{
   font-size: 16px;
 }
+
+.credit-image-container{
+  height: 35px;
+  width: 35px;
+}
+
