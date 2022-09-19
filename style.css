@@ -42,7 +42,7 @@ div img {
 
 .card {
   width: 35rem;
-  height: 650px;
+  height: 625px;
   /* margin: 20vh auto; */
   /* border: 2px solid white; */
   background-color: var(--dark-blue-card-bg);
