@@ -27,7 +27,7 @@ body {
   font-size: 1.8rem;
   background-color: var(--dark-blue-bg);
   color: white;
-  font-family: Outfit;
+  font-family: "Outfit", sans-serif;
 }
 
 .image-container {
@@ -37,12 +37,13 @@ body {
 
 div img {
   width: 100%;
+  height: 100%;
   border-radius: 3%;
 }
 
 .card {
   width: 35rem;
-  height: 625px;
+  height: 580px;
   /* margin: 20vh auto; */
   /* border: 2px solid white; */
   background-color: var(--dark-blue-card-bg);
@@ -56,39 +57,83 @@ div img {
 
 .info-value {
   color: var(--cyan);
+  display: flex;
+  align-items: center;
+  /* border: 2px solid; */
 }
 
 .info-about {
   color: var(--soft-blue);
+  font-weight: 300;
 }
 
-.info-heading {
+.info-heading p{
   color: var(--white);
+  font-weight:600;
 }
 
 .info-time-left {
   color: var(--soft-blue);
+  display: flex;
+  align-items: center;
+  
 }
 
 .info-double {
   display: flex;
   justify-content: space-between;
+  align-content: center;
 }
 
 .info-heading,
 .info-about,
 .info-double,
 .credit {
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 #avatar {
   height: 3rem;
   width: 3rem;
+  border-radius: 50%;
+  border: 1px solid white;
 }
 
 .credit {
   display: flex;
   align-items: center;
   gap: 5%;
-  margin-bottom: 1.5rem;
+  /* margin-bottom: 1.5rem; */
+  border-top: 1px solid var(--dark-blue-line);
+  padding: 1.5rem 0;
+
+}
+
+.info-value span{
+  margin-left: 7px;
+  font-size: 15px;
+  
+}
+
+.info-time-left svg {
+  margin-right: 7px;
+  /* border: 2px solid; */
+}
+
+.info-time-left span{
+  font-size: 14px;
+  font-weight: 100;
+  /* border: 2px solid; */
+  
+}
+
+h2{
+  font-size:22px;
+}
+
+#creation{
+  color: var(--soft-blue);
+}
+
+.credit span{
+  font-size: 15px;
 }
