@@ -32,6 +32,7 @@ body {
 
 .image-container {
   width: 300px;
+  height: 300px;
   margin: 25px auto;
 }
 
@@ -43,7 +44,7 @@ div img {
 
 .card {
   width: 35rem;
-  height: 580px;
+  height: 600px;
   /* margin: 20vh auto; */
   /* border: 2px solid white; */
   background-color: var(--dark-blue-card-bg);
@@ -53,6 +54,7 @@ div img {
 .info {
   width: 30rem;
   margin: 0 auto;
+  margin-top: -7px
 }
 
 .info-value {
@@ -83,6 +85,8 @@ div img {
   display: flex;
   justify-content: space-between;
   align-content: center;
+  margin-bottom: 2.5rem;
+
 }
 
 .info-heading,
@@ -90,6 +94,10 @@ div img {
 .info-double,
 .credit {
   margin: 2rem 0;
+}
+
+.info-heading{
+  margin-top: 1.5rem;
 }
 #avatar {
   height: 3rem;
@@ -110,7 +118,7 @@ div img {
 
 .info-value span{
   margin-left: 7px;
-  font-size: 15px;
+  font-size: 17px;
   
 }
 
@@ -120,7 +128,7 @@ div img {
 }
 
 .info-time-left span{
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 100;
   /* border: 2px solid; */
   
@@ -135,5 +143,5 @@ h2{
 }
 
 .credit span{
-  font-size: 15px;
+  font-size: 16px;
 }
